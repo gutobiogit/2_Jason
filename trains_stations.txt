@@ -1,0 +1,229 @@
++-------------+---------------+----------------+-----------+-------------+--------------------------------------------------------------------------------------------------------------------------+-------------------+
+| TrainStatus | TrainLatitude | TrainLongitude | TrainCode | TrainDate   | PublicMessage                                                                                                            | Direction         |
++-------------+---------------+----------------+-----------+-------------+--------------------------------------------------------------------------------------------------------------------------+-------------------+
+| N           | 51.8491       | -8.29956       | B273      | 22 Apr 2021 | B273\nCobh to Cork\nExpected Departure 20:30                                                                             | To Cork           |
+| N           | 51.9018       | -8.4582        | A231      | 22 Apr 2021 | A231\nCork to Dublin Heuston\nExpected Departure 20:25                                                                   | To Dublin Heuston |
+| N           | 52.8386       | -8.97491       | A479      | 22 Apr 2021 | A479\nEnnis to Limerick\nExpected Departure 20:35                                                                        | To Limerick       |
+| N           | 53.0371       | -7.30086       | P221      | 22 Apr 2021 | P221\nPortlaoise to Dublin Heuston\nExpected Departure 20:33                                                             | To Dublin Heuston |
+| N           | 53.3223       | -6.52356       | P420      | 22 Apr 2021 | P420\nHazelhatch to Grand Canal Dock\nExpected Departure 20:40                                                           | Northbound        |
+| N           | 53.378        | -6.58993       | P758      | 22 Apr 2021 | P758\nMaynooth to Dublin Connolly\nExpected Departure 20:40                                                              | Southbound        |
+| N           | 53.4349       | -6.46898       | P343      | 22 Apr 2021 | P343\nM3 Parkway to Clonsilla\nExpected Departure 20:33                                                                  | Southbound        |
+| R           | 0             | 0              | A224      | 22 Apr 2021 | A224\n18:00 - Dublin Heuston to Cork (0 mins late)\nDeparted Killarney Junction next stop Cork                           | To Cork           |
+| R           | 0             | 0              | A808      | 22 Apr 2021 | A808\n20:15 - Athlone to Westport (0 mins late)\nDeparted Athlone Midland Yard next stop Roscommon                       | To Westport       |
+| R           | 52.1396       | -8.65521       | A312      | 22 Apr 2021 | A312\n17:15 - Dublin Heuston to Tralee (8 mins late)\nDeparted Mallow next stop Banteer                                  | To Tralee         |
+| R           | 52.6766       | -7.82189       | A226      | 22 Apr 2021 | A226\n19:00 - Dublin Heuston to Cork (4 mins late)\nDeparted Thurles next stop Limerick Junction                         | To Cork           |
+| R           | 52.992        | -6.9762        | A514      | 22 Apr 2021 | A514\n18:35 - Dublin Heuston to Waterford (-1 mins late)\nDeparted Athy next stop Carlow                                 | To Waterford      |
+| R           | 53.0371       | -7.30086       | A227      | 22 Apr 2021 | A227\n18:25 - Cork to Dublin Heuston (3 mins late)\nDeparted Portlaoise next stop Dublin Heuston                         | To Dublin Heuston |
+| R           | 53.1442       | -6.06085       | A610      | 22 Apr 2021 | A610\n17:40 - Dublin Connolly to Rosslare Europort (0 mins late)\nDeparted Greystones next stop Kilcoole                 | Southbound        |
+| R           | 53.1442       | -6.06085       | E830      | 22 Apr 2021 | E830\n20:30 - Greystones to Malahide (0 mins late)\nDeparted Greystones next stop Bray                                   | Northbound        |
+| R           | 53.2469       | -6.66386       | A517      | 22 Apr 2021 | A517\n18:25 - Waterford to Dublin Heuston (3 mins late)\nDeparted Sallins next stop Dublin Heuston                       | To Dublin Heuston |
+| R           | 53.2557       | -6.11317       | E248      | 22 Apr 2021 | E248\n22:55 - Howth to Bray (3 mins late)\nArrived Killiney next stop Shankill                                           | Southbound        |
+| R           | 53.2557       | -6.11317       | E934      | 22 Apr 2021 | E934\n20:25 - Bray to Howth (-1 mins late)\nArrived Killiney next stop Dalkey                                            | Northbound        |
+| R           | 53.2756       | -6.10333       | E239      | 22 Apr 2021 | E239\n19:30 - Howth to Bray (2 mins late)\nDeparted Dalkey next stop Killiney                                            | Southbound        |
+| R           | 53.2878       | -6.12712       | E136      | 22 Apr 2021 | E136\n23:05 - Malahide to Greystones (2 mins late)\nDeparted Sandycove next stop Glenageary                              | Southbound        |
+| R           | 53.2878       | -6.12712       | E829      | 22 Apr 2021 | E829\n20:13 - Bray to Malahide (2 mins late)\nDeparted Sandycove next stop Dun Laoghaire                                 | Northbound        |
+| R           | 53.2991       | -6.16512       | E240      | 22 Apr 2021 | E240\n19:45 - Malahide to Bray (2 mins late)\nDeparted Seapoint next stop Salthill and Monkstown                         | Southbound        |
+| R           | 53.3212       | -8.60608       | A716      | 22 Apr 2021 | A716\n18:30 - Dublin Heuston to Galway (-3 mins late)\nArrived Attymon next stop Athenry                                 | To Galway         |
+| R           | 53.3281       | -6.22116       | A613      | 22 Apr 2021 | A613\n17:55 - Rosslare Europort to Dublin Connolly (-3 mins late)\nArrived Sandymount next stop Dublin Pearse            | Northbound        |
+| R           | 53.334        | -6.37868       | P220      | 22 Apr 2021 | P220\n19:25 - Portlaoise to Dublin Heuston (2 mins late)\nDeparted Park West and Cherry Orchard next stop Dublin Heuston | To Dublin Heuston |
+| R           | 53.3345       | -6.43038       | A516      | 22 Apr 2021 | A516\n20:15 - Dublin Heuston to Carlow (2 mins late)\nDeparted Kishogue next stop Adamstown                              | To Carlow         |
+| R           | 53.3347       | -6.22979       | E933      | 22 Apr 2021 | E933\n19:55 - Bray to Howth (2 mins late)\nDeparted Lansdowne Road next stop Grand Canal Dock                            | Northbound        |
+| R           | 53.347        | -6.25425       | E128      | 22 Apr 2021 | E128\n20:00 - Howth to Greystones (3 mins late)\nArrived Tara Street next stop Dublin Pearse                             | Southbound        |
+| R           | 53.347        | -6.25425       | E715      | 22 Apr 2021 | E715\n23:10 - Greystones to Dublin Connolly (-1 mins late)\nDeparted Tara Street next stop Dublin Connolly               | Northbound        |
+| R           | 53.3629       | -6.22753       | E712      | 22 Apr 2021 | E712\n23:35 - Malahide to Dublin Connolly (2 mins late)\nDeparted Clontarf Road next stop Dublin Connolly                | Southbound        |
+| R           | 53.3629       | -6.22753       | E828      | 22 Apr 2021 | E828\n19:30 - Greystones to Malahide (-1 mins late)\nDeparted Clontarf Road next stop Killester                          | Northbound        |
+| R           | 53.3632       | -6.25908       | D424      | 22 Apr 2021 | D424\n23:25 - Grand Canal Dock to Hazelhatch (0 mins late)\nDeparted Drumcondra next stop Park West and Cherry Orchard   | Southbound        |
+| R           | 53.3632       | -6.25908       | P756      | 22 Apr 2021 | P756\n19:50 - Maynooth to Dublin Connolly (4 mins late)\nDeparted Drumcondra next stop Dublin Connolly                   | Southbound        |
+| R           | 53.3704       | -6.50598       | D935      | 22 Apr 2021 | D935\n23:27 - Dublin Connolly to Maynooth (0 mins late)\nArrived Leixlip (Louisa Bridge) next stop Maynooth              | Northbound        |
+| R           | 53.3755       | -6.33135       | D929      | 22 Apr 2021 | D929\n20:17 - Dublin Connolly to Maynooth (2 mins late)\nDeparted Ashtown next stop Navan Road Parkway                   | Northbound        |
+| R           | 53.3786       | -6.19131       | E241      | 22 Apr 2021 | E241\n20:15 - Malahide to Bray (0 mins late)\nArrived Harmonstown next stop Killester                                    | Southbound        |
+| R           | 53.3815       | -6.17699       | E835      | 22 Apr 2021 | E835\n23:05 - Bray to Malahide (0 mins late)\nDeparted Raheny next stop Kilbarrack                                       | Northbound        |
+| R           | 53.3816       | -6.37149       | P757      | 22 Apr 2021 | P757\n20:10 - Maynooth to Dublin Connolly (0 mins late)\nArrived Castleknock next stop Navan Road Parkway                | Southbound        |
+| R           | 53.3891       | -6.07401       | E242      | 22 Apr 2021 | E242\n20:30 - Howth to Bray (1 mins late)\nDeparted Howth next stop Sutton                                               | Southbound        |
+| R           | 53.3909       | -6.15672       | D823      | 22 Apr 2021 | D823\n20:20 - Dublin Connolly to Drogheda (0 mins late)\nDeparted Howth Junction next stop Clongriffin                   | Northbound        |
+| R           | 53.3917       | -6.13678       | E932      | 22 Apr 2021 | E932\n19:25 - Bray to Howth (5 mins late)\nDeparted Bayside next stop Sutton                                             | Northbound        |
+| R           | 53.4032       | -6.14839       | D826      | 22 Apr 2021 | D826\n23:40 - Dublin Pearse to Dundalk (0 mins late)\nArrived Clongriffin next stop Portmarnock                          | Northbound        |
+| R           | 53.4175       | -6.46483       | D347      | 22 Apr 2021 | D347\n23:53 - Clonsilla to M3 Parkway (-1 mins late)\nArrived Dunboyne next stop M3 Parkway                              | Northbound        |
+| R           | 53.4273       | -7.93683       | A719      | 22 Apr 2021 | A719\n19:20 - Galway to Dublin Heuston (-5 mins late)\nDeparted Athlone next stop Clara                                  | To Dublin Heuston |
+| R           | 53.4933       | -7.15576       | A914      | 22 Apr 2021 | A914\n19:15 - Dublin Connolly to Sligo (2 mins late)\nDeparted Killucan next stop Mullingar                              | Northbound        |
+| R           | 53.5741       | -6.11933       | P727      | 22 Apr 2021 | P727\n20:10 - Drogheda to Dublin Connolly (-1 mins late)\nArrived Skerries next stop Rush and Lusk                       | Southbound        |
+| R           | 53.6888       | -7.60299       | A915      | 22 Apr 2021 | A915\n19:00 - Sligo to Dublin Connolly (2 mins late)\nDeparted Edgeworthstown next stop Mullingar                        | Southbound        |
+| R           | 53.712        | -6.33538       | D825      | 22 Apr 2021 | D825\n22:45 - Dublin Connolly to Dundalk (3 mins late)\nDeparted Drogheda next stop Dundalk                              | Northbound        |
+| R           | 54.0007       | -6.41291       | A134      | 22 Apr 2021 | A134\n19:00 - Dublin Connolly to Belfast (7 mins late)\nDeparted Dundalk next stop Newry                                 | Northbound        |
+| T           | 53.2043       | -6.10046       | E238      | 22 Apr 2021 | E238\n19:15 - Malahide to Bray(3 mins late)\nTERMINATED Bray at 20:27                                                    | Southbound        |
+| T           | 53.3223       | -6.52356       | D420      | 22 Apr 2021 | D420\n19:43 - Grand Canal Dock to Hazelhatch(0 mins late)\nTERMINATED Hazelhatch at 20:28                                | Southbound        |
+| T           | 53.378        | -6.58993       | D928      | 22 Apr 2021 | D928\n19:47 - Dublin Connolly to Maynooth(0 mins late)\nTERMINATED Maynooth at 20:28                                     | Northbound        |
+| T           | 53.3891       | -6.07401       | E931      | 22 Apr 2021 | E931\n19:10 - Bray to Howth(5 mins late)\nTERMINATED Howth at 20:23                                                      | Northbound        |
+| T           | 53.4349       | -6.46898       | D343      | 22 Apr 2021 | D343\n20:15 - Clonsilla to M3 Parkway(-1 mins late)\nTERMINATED M3 Parkway at 20:26                                      | Northbound        |
++-------------+---------------+----------------+-----------+-------------+--------------------------------------------------------------------------------------------------------------------------+-------------------+
++------------------------------+-------------------------------+-----------------+------------------+-------------+-----------+
+| StationDesc                  | StationAlias                  | StationLatitude | StationLongitude | StationCode | StationId |
++------------------------------+-------------------------------+-----------------+------------------+-------------+-----------+
+| Belfast                      | None                          | 54.6123         | -5.91744         | BFSTC       | 228       |
+| Lisburn                      | None                          | 54.514          | -6.04327         | LBURN       | 238       |
+| Lurgan                       | None                          | 54.4672         | -6.33547         | LURGN       | 241       |
+| Portadown                    | None                          | 54.4295         | -6.43868         | PDOWN       | 242       |
+| Sligo                        | None                          | 54.2723         | -8.48249         | SLIGO       | 180       |
+| Newry                        | None                          | 54.1911         | -6.36225         | NEWRY       | 260       |
+| Collooney                    | None                          | 54.1871         | -8.49453         | COLNY       | 177       |
+| Ballina                      | None                          | 54.1085         | -9.16146         | BALNA       | 167       |
+| Ballymote                    | None                          | 54.0887         | -8.52088         | BMOTE       | 176       |
+| Dundalk                      | None                          | 54.0007         | -6.41291         | DDALK       | 123       |
+| Foxford                      | None                          | 53.983          | -9.1364          | FXFRD       | 193       |
+| Boyle                        | None                          | 53.9676         | -8.30438         | BOYLE       | 175       |
+| Carrick on Shannon           | None                          | 53.9383         | -8.10657         | CKOSH       | 174       |
+| Dromod                       | None                          | 53.8591         | -7.9164          | DRMOD       | 173       |
+| Castlebar                    | None                          | 53.8471         | -9.2873          | CLBAR       | 168       |
+| Manulla Junction             | None                          | 53.828          | -9.19296         | MNLAJ       | 194       |
+| Westport                     | None                          | 53.7955         | -9.50885         | WPORT       | 169       |
+| Ballyhaunis                  | None                          | 53.7616         | -8.7584          | BYHNS       | 165       |
+| Castlerea                    | None                          | 53.7612         | -8.48448         | CSREA       | 164       |
+| Longford                     | None                          | 53.7243         | -7.79574         | LFORD       | 172       |
+| Claremorris                  | None                          | 53.7204         | -9.00222         | CLMRS       | 166       |
+| Drogheda                     | None                          | 53.712          | -6.33538         | DGHDA       | 120       |
+| Edgeworthstown               | None                          | 53.6888         | -7.60299         | ETOWN       | 171       |
+| Laytown                      | None                          | 53.6794         | -6.24253         | LTOWN       | 119       |
+| Gormanston                   | None                          | 53.638          | -6.21705         | GSTON       | 117       |
+| Roscommon                    | None                          | 53.6243         | -8.19631         | RSCMN       | 163       |
+| Balbriggan                   | None                          | 53.6118         | -6.18226         | BBRGN       | 116       |
+| Skerries                     | None                          | 53.5741         | -6.11933         | SKRES       | 115       |
+| Mullingar                    | None                          | 53.523          | -7.34608         | MLGAR       | 153       |
+| Rush and Lusk                | None                          | 53.5201         | -6.1439          | RLUSK       | 114       |
+| Donabate                     | None                          | 53.4855         | -6.15134         | DBATE       | 113       |
+| Malahide                     | None                          | 53.4509         | -6.15649         | MHIDE       | 112       |
+| M3 Parkway                   | None                          | 53.4349         | -6.46898         | M3WAY       | 86        |
+| Athlone                      | None                          | 53.4273         | -7.93683         | ATLNE       | 156       |
+| Dunboyne                     | None                          | 53.4175         | -6.46483         | DBYNE       | 85        |
+| Portmarnock                  | None                          | 53.4169         | -6.1512          | PMNCK       | 111       |
+| Enfield                      | None                          | 53.4157         | -6.83395         | ENFLD       | 83        |
+| Kilcock                      | None                          | 53.4043         | -6.67892         | KCOCK       | 90        |
+| Clongriffin                  | None                          | 53.4032         | -6.14839         | GRGRD       | 187       |
+| Sutton                       | None                          | 53.392          | -6.11448         | SUTTN       | 107       |
+| Bayside                      | None                          | 53.3917         | -6.13678         | BYSDE       | 106       |
+| Howth Junction               | Donaghmede ( Howth Junction ) | 53.3909         | -6.15672         | HWTHJ       | 105       |
+| Howth                        | None                          | 53.3891         | -6.07401         | HOWTH       | 108       |
+| Kilbarrack                   | None                          | 53.387          | -6.16163         | KBRCK       | 104       |
+| Hansfield                    | None                          | 53.3853         | -6.44205         | HAFLD       | 87        |
+| Clonsilla                    | None                          | 53.3831         | -6.4242          | CLSLA       | 94        |
+| Castleknock                  | None                          | 53.3816         | -6.37149         | CNOCK       | 96        |
+| Raheny                       | None                          | 53.3815         | -6.17699         | RAHNY       | 103       |
+| Harmonstown                  | None                          | 53.3786         | -6.19131         | HTOWN       | 102       |
+| Maynooth                     | None                          | 53.378          | -6.58993         | MYNTH       | 91        |
+| Navan Road Parkway           | Phoenix Park                  | 53.3777         | -6.34591         | PHNPK       | 89        |
+| Coolmine                     | None                          | 53.3776         | -6.39072         | CMINE       | 95        |
+| Ashtown                      | None                          | 53.3755         | -6.33135         | ASHTN       | 97        |
+| Leixlip (Confey)             | None                          | 53.3743         | -6.48624         | LXCON       | 93        |
+| Killester                    | None                          | 53.373          | -6.20442         | KLSTR       | 101       |
+| Broombridge                  | None                          | 53.3725         | -6.29869         | BBRDG       | 98        |
+| Leixlip (Louisa Bridge)      | None                          | 53.3704         | -6.50598         | LXLSA       | 92        |
+| Drumcondra                   | None                          | 53.3632         | -6.25908         | DCDRA       | 99        |
+| Clontarf Road                | None                          | 53.3629         | -6.22753         | CTARF       | 109       |
+| Dublin Connolly              | Connolly                      | 53.3531         | -6.24591         | CNLLY       | 100       |
+| Docklands                    | None                          | 53.3509         | -6.23929         | DCKLS       | 84        |
+| Tara Street                  | None                          | 53.347          | -6.25425         | TARA        | 124       |
+| Dublin Heuston               | Heuston                       | 53.3464         | -6.29461         | HSTON       | 1         |
+| Dublin Pearse                | Pearse                        | 53.3433         | -6.24829         | PERSE       | 150       |
+| Woodlawn                     | None                          | 53.3432         | -8.47231         | WLAWN       | 158       |
+| Grand Canal Dock             | None                          | 53.3397         | -6.23773         | GCDK        | 110       |
+| Clara                        | None                          | 53.3395         | -7.61596         | CLARA       | 73        |
+| Ballinasloe                  | None                          | 53.3363         | -8.24081         | BSLOE       | 157       |
+| Adamstown                    | None                          | 53.3353         | -7               | ADAMS       | 1075      |
+| Adamstown                    | None                          | 53.3353         | -6.45233         | ADAMF       | 975       |
+| Adamstown                    | None                          | 53.3353         | -6.45233         | ADMTN       | 75        |
+| Lansdowne Road               | None                          | 53.3347         | -6.22979         | LDWNE       | 125       |
+| Park West and Cherry Orchard | Park West (Cherry Orchard )   | 53.334          | -6.37868         | CHORC       | 76        |
+| Park West and Cherry Orchard | Park West (Cherry Orchard )   | 53.334          | -6.37868         | PWESF       | 976       |
+| PARK WEST                    | Park West (Cherry Orchard )   | 53.334          | -6.37868         | PWESS       | 1076      |
+| Clondalkin                   | Fonthill ( Clondalkin )       | 53.3334         | -6.40628         | CLONS       | 1077      |
+| Clondalkin                   | Fonthill ( Clondalkin )       | 53.3334         | -6.40628         | CLONF       | 977       |
+| Clondalkin                   | Fonthill ( Clondalkin )       | 53.3334         | -6.40628         | CLDKN       | 77        |
+| Sandymount                   | None                          | 53.3281         | -6.22116         | SMONT       | 188       |
+| Hazelhatch                   | Celbridge (Hazelhatch )       | 53.3223         | -6.52356         | HZLCH       | 78        |
+| Hazelhatch                   | Celbridge (Hazelhatch )       | 53.3223         | -6.52356         | HAZEF       | 978       |
+| Hazelhatch                   | Celbridge (Hazelhatch )       | 53.3223         | -6.52356         | HAZES       | 1078      |
+| Attymon                      | None                          | 53.3212         | -8.60608         | ATMON       | 159       |
+| Sydney Parade                | None                          | 53.3206         | -6.21112         | SIDNY       | 126       |
+| Booterstown                  | None                          | 53.3099         | -6.19498         | BTSTN       | 127       |
+| Blackrock                    | None                          | 53.3027         | -6.17833         | BROCK       | 128       |
+| Athenry                      | None                          | 53.3015         | -8.74855         | ATHRY       | 162       |
+| Seapoint                     | None                          | 53.2991         | -6.16512         | SEAPT       | 129       |
+| Salthill and Monkstown       | Monkstown ( Salthill )        | 53.2954         | -6.15206         | SHILL       | 130       |
+| Dun Laoghaire                | None                          | 53.2951         | -6.13498         | DLERY       | 131       |
+| Sandycove                    | Glasthule (Sandycove )        | 53.2878         | -6.12712         | SCOVE       | 132       |
+| Glenageary                   | None                          | 53.2812         | -6.12289         | GLGRY       | 133       |
+| Dalkey                       | None                          | 53.2756         | -6.10333         | DLKEY       | 134       |
+| Oranmore                     | None                          | 53.2751         | -8.94792         | ORNMR       | 161       |
+| Galway                       | None                          | 53.2736         | -9.04696         | GALWY       | 170       |
+| Tullamore                    | None                          | 53.2704         | -7.49985         | TMORE       | 72        |
+| Killiney                     | None                          | 53.2557         | -6.11317         | KILNY       | 135       |
+| Sallins                      | None                          | 53.2469         | -6.66386         | SALNS       | 79        |
+| Shankill                     | None                          | 53.2364         | -6.11691         | SKILL       | 136       |
+| Craughwell                   | None                          | 53.2252         | -8.7359          | CRGHW       | 184       |
+| Woodbrook                    | None                          | 53.22           | -6.1101          | WBROK       | 801       |
+| Bray                         | None                          | 53.2043         | -6.10046         | BRAY        | 140       |
+| Newbridge                    | None                          | 53.1855         | -6.80807         | NBRGE       | 4         |
+| Curragh                      | None                          | 53.1725         | -6.86245         | CURAH       | 5         |
+| Kildare                      | None                          | 53.163          | -6.90802         | KDARE       | 6         |
+| Ardrahan                     | None                          | 53.1572         | -8.81483         | ARHAN       | 183       |
+| Portarlington                | None                          | 53.146          | -7.18055         | PTRTN       | 8         |
+| Monasterevin                 | None                          | 53.1454         | -7.06361         | MONVN       | 7         |
+| Greystones                   | None                          | 53.1442         | -6.06085         | GSTNS       | 141       |
+| Kilcoole                     | None                          | 53.107          | -6.04112         | KCOOL       | 139       |
+| Gort                         | None                          | 53.0653         | -8.81595         | GORT        | 182       |
+| Portlaoise                   | None                          | 53.0371         | -7.30086         | PTLSE       | 9         |
+| Athy                         | None                          | 52.992          | -6.9762          | ATHY        | 45        |
+| Wicklow                      | None                          | 52.9882         | -6.05338         | WLOW        | 142       |
+| Roscrea                      | None                          | 52.9607         | -7.7941          | RCREA       | 31        |
+| Cloughjordan                 | None                          | 52.9363         | -8.0246          | CJRDN       | 32        |
+| Rathdrum                     | None                          | 52.9295         | -6.22641         | RDRUM       | 143       |
+| Ballybrophy                  | None                          | 52.8999         | -7.60259         | BBRHY       | 11        |
+| Nenagh                       | None                          | 52.8605         | -8.19471         | NNAGH       | 33        |
+| Carlow                       | None                          | 52.8407         | -6.92217         | CRLOW       | 46        |
+| Ennis                        | None                          | 52.8386         | -8.97491         | ENNIS       | 181       |
+| Arklow                       | None                          | 52.7932         | -6.15994         | ARKLW       | 144       |
+| Templemore                   | None                          | 52.7878         | -7.82293         | TPMOR       | 12        |
+| Birdhill                     | None                          | 52.7656         | -8.44247         | BHILL       | 34        |
+| Sixmilebridge                | None                          | 52.7376         | -8.78427         | SXMBR       | 185       |
+| Castleconnell                | None                          | 52.7128         | -8.49794         | CCONL       | 35        |
+| Muine Bheag                  | Bagenalstown                  | 52.699          | -6.95213         | MNEBG       | 47        |
+| Thurles                      | None                          | 52.6766         | -7.82189         | THRLS       | 13        |
+| Gorey                        | None                          | 52.6712         | -6.29195         | GOREY       | 145       |
+| Limerick                     | None                          | 52.6587         | -8.62397         | LMRCK       | 40        |
+| Kilkenny                     | None                          | 52.655          | -7.24498         | KKNNY       | 48        |
+| Thomastown                   | None                          | 52.523          | -7.14891         | THTWN       | 49        |
+| Enniscorthy                  | None                          | 52.5046         | -6.56627         | ECRTY       | 147       |
+| Limerick Junction            | None                          | 52.5009         | -8.20003         | LMRKJ       | 16        |
+| Tipperary                    | None                          | 52.4701         | -8.1625          | TIPRY       | 41        |
+| Cahir                        | None                          | 52.3777         | -7.92181         | CAHIR       | 42        |
+| Clonmel                      | None                          | 52.3611         | -7.69936         | CLMEL       | 43        |
+| Carrick on Suir              | None                          | 52.3487         | -7.40354         | CKOSR       | 44        |
+| Charleville                  | None                          | 52.3468         | -8.65362         | CVILL       | 19        |
+| Wexford                      | None                          | 52.3434         | -6.4636          | WXFRD       | 148       |
+| Campile                      | None                          | 52.2855         | -6.93896         | CPILE       | 52        |
+| Ballycullane                 | None                          | 52.2834         | -6.83958         | BCLAN       | 53        |
+| Rosslare Strand              | None                          | 52.2726         | -6.39254         | RLSTD       | 58        |
+| Tralee                       | None                          | 52.271          | -9.69846         | TRLEE       | 28        |
+| Wellingtonbridge             | None                          | 52.2678         | -6.75392         | WBDGE       | 54        |
+| Waterford                    | None                          | 52.2667         | -7.1183          | WFORD       | 50        |
+| Rosslare Europort            | Rosslare Harbour              | 52.2531         | -6.33493         | RLEPT       | 60        |
+| Bridgetown                   | None                          | 52.2312         | -6.54918         | BRGTN       | 56        |
+| Farranfore                   | None                          | 52.1733         | -9.55278         | FFORE       | 27        |
+| Mallow                       | None                          | 52.1396         | -8.65521         | MLLOW       | 21        |
+| Banteer                      | None                          | 52.1287         | -8.89793         | BTEER       | 23        |
+| Rathmore                     | None                          | 52.0854         | -9.21756         | RMORE       | 25        |
+| Millstreet                   | None                          | 52.0776         | -9.06973         | MLSRT       | 24        |
+| Killarney                    | None                          | 52.0595         | -9.50198         | KLRNY       | 26        |
+| Midleton                     | None                          | 51.9212         | -8.17579         | MDLTN       | 68        |
+| Carrigtwohill                | None                          | 51.9163         | -8.26323         | CGTWL       | 67        |
+| Glounthaune                  | None                          | 51.9112         | -8.3254          | GHANE       | 380       |
+| LittleIsland                 | Little Island                 | 51.9078         | -8.35466         | LSLND       | 61        |
+| Cork                         | None                          | 51.9018         | -8.4582          | CORK        | 30        |
+| Fota                         | None                          | 51.896          | -8.3183          | FOTA        | 63        |
+| Carrigaloe                   | None                          | 51.8688         | -8.32417         | CGLOE       | 64        |
+| Rushbrooke                   | None                          | 51.8496         | -8.32252         | RBROK       | 65        |
+| Cobh                         | None                          | 51.8491         | -8.29956         | COBH        | 66        |
+| CITY JUNCTION                | Dublin Belfast                | 0               | 0                | CITYJ       | 1516      |
+| CENTRAL JUNCTION             | Dublin Belfast                | 0               | 0                | CENTJ       | 1517      |
+| DUNMURRAY                    | Dublin Belfast                | 0               | 0                | DUNMR       | 1518      |
+| MOIRA                        | Dublin Belfast                | 0               | 0                | MOIRA       | 1519      |
++------------------------------+-------------------------------+-----------------+------------------+-------------+-----------+
