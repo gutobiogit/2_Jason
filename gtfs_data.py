@@ -5,7 +5,7 @@ from google.transit import gtfs_realtime_pb2
 
 feed = gtfs_realtime_pb2.FeedMessage()
 req = Request('https://gtfsr.transportforireland.ie/v1')
-req.add_header('x-api-key', '05a8cca127b04076832bd54d93d46ff2')
+req.add_header('x-api-key', 'xxxxxx')
 response = urlopen(req)
 feed.ParseFromString(response.read())
 #print (feed.entity[0])
